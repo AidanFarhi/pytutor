@@ -5,4 +5,5 @@
     color: rgb(215, 215, 215);
     display: grid;
     grid-template-rows: 40px 1fr;
+    grid-template-columns: 8vw 1fr;
 }

@@ -1,11 +1,18 @@
 import './Navbar.css'
-import pythonIcon from '../images/python-icon.webp'
 
-export default function Navbar() {
+export default function NavBar() {
     return (
-        <div id="navbar">
-            <img id='navbar-icon' src={pythonIcon}/>
-            <p>PyTutor</p>
+        <div id='navbar-main'>
+            <nav>
+                <ul>
+                <li>
+                    <a href={`/hello`}>Hello</a>
+                </li>
+                <li>
+                    <a href={`/goodbye`}>goodbye</a>
+                </li>
+                </ul>
+            </nav>
         </div>
     )
 }
