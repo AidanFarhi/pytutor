@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid rgb(115, 115, 115);
+    border-bottom: 1px solid rgb(115, 115, 115, .5);
     grid-column: 1/3;
 }
 

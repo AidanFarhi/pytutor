@@ -1,7 +1,7 @@
 #app-root {
     height: 100vh;
     width: 100vw;
-    background-color: rgb(33, 33, 33);
+    background-color: rgb(35, 35, 35);
     color: rgb(215, 215, 215);
     display: grid;
     grid-template-rows: 40px 1fr;
