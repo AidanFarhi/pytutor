@@ -5,8 +5,11 @@
     align-items: center;
 }
 
+#home-main > * {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 #welcome-message {
     font-size: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }

@@ -8,6 +8,9 @@ export default function Home() {
                 PyTutor is a free and interactive Python tutorial. 
                 If you would like to save your progress, log in.
             </p>
+            <p>
+                Happy hacking!
+            </p>
         </div>
     )
 }

@@ -2,4 +2,34 @@
     grid-column: 1/2;
     border-right: 1px solid rgb(115, 115, 115, .5);
     min-width: 80px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+a {
+    all: unset; /* remove all default styling */
+    /* width: 100%; */
+    /* text-align: center; */
+    font-size: 14px;
+    padding-left: 10px;
+    color: rgb(175, 175, 175);
+}
+
+a:hover {
+    cursor: pointer;
+    background-color: rgb(108, 108, 108);
+}
+
+.active {
+    background-color: rgb(108, 108, 108)
+}
+
+#navbar-main > * {
+    margin-bottom: 10px;
+}
+
+.section-title {
+    font-size: 18px;
+    padding-left: 10px;
 }
