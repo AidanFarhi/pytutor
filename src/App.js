@@ -9,19 +9,18 @@ import {
 } from "react-router-dom";
 import ErrorPage from './components/ErrorPage';
 import Hello from './components/Hello';
+import Home from './components/Home';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Hello />,
+    element: <Home />,
     errorElement: <ErrorPage />,
-    // children: [
-    //   {
-    //     path: "hello",
-    //     element: <Hello />,
-    //   },
-    // ],
   },
+  {
+    path: "/hello",
+    element: <Hello />
+  }
 ]);
 
 export default function App() {

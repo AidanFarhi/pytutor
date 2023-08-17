@@ -1,6 +1,6 @@
 #banner {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     border-bottom: 1px solid rgb(115, 115, 115, .5);
     grid-column: 1/3;

@@ -7,3 +7,7 @@
     grid-template-rows: 40px 1fr;
     grid-template-columns: 8vw 1fr;
 }
+
+.main-view {
+    grid-column: 2/3;
+}
