@@ -4,7 +4,11 @@ export default function NavBar() {
     return (
         <div id='navbar-main'>
             <p className='section-title'>Basics</p>
-            <a href={`/hello`}>Hello</a>
+            <a href={`/intro`}>Intro to programming</a>
+            <a href={`/intro`}>Variables</a>
+            <a href={`/intro`}>Numbers</a>
+            <a href={`/intro`}>Strings</a>
+            <a href={`/intro`}>Operators</a>
             <p className='section-title'>Collections</p>
             <a href={`/hello`}>Hello</a>
             <p className='section-title'>Loops</p>

@@ -8,8 +8,8 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import ErrorPage from './components/ErrorPage';
-import Hello from './components/Hello';
 import Home from './components/Home';
+import Intro from './components/Intro';
 
 const router = createBrowserRouter([
   {
@@ -18,8 +18,8 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
   },
   {
-    path: "/hello",
-    element: <Hello />
+    path: "/intro",
+    element: <Intro />
   }
 ]);
 
