@@ -4,7 +4,9 @@ export default function NavBar() {
     return (
         <div id='navbar-main'>
             <p className='section-title'>Basics</p>
-            <a href={`/intro`}>Intro to programming</a>
+            <a className={window.location.pathname == '/intro' ? 'active' : null} href={`/intro`}>
+                Intro to programming
+            </a>
             <a href={`/intro`}>Variables</a>
             <a href={`/intro`}>Numbers</a>
             <a href={`/intro`}>Strings</a>
