@@ -10,6 +10,7 @@ import {
 import ErrorPage from './components/ErrorPage';
 import Home from './components/Home';
 import Intro from './components/Intro';
+import Variables from './components/Variables';
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "/intro",
     element: <Intro />
+  },
+  {
+    path: "/variables",
+    element: <Variables />
   }
 ]);
 

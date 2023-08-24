@@ -21,7 +21,6 @@
 
 .main-view > * {
     margin-top: 15px;
-    margin-bottom: 15px;
 }
 
 .main-view-header {
@@ -30,7 +29,6 @@
 
 .main-view-subtext {
     opacity: .8;
-    margin-bottom: 100px;
 }
 
 .main-view-image {
