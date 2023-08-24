@@ -5,13 +5,16 @@ export default function NavBar() {
         <div id='navbar-main'>
             <p className='section-title'>Basics</p>
             <a className={window.location.pathname === '/intro' ? 'active' : null} href={`/intro`}>
-                Intro to programming
+                Intro
             </a>
-            <a className={window.location.pathname === '/variables' ? 'active' : null} href={`/variables`}>
-                Variables
+            <a href={`/data-types`}>
+                Basic data types
             </a>
             <a href={`/intro`}>Numbers</a>
             <a href={`/intro`}>Strings</a>
+            <a className={window.location.pathname === '/variables' ? 'active' : null} href={`/variables`}>
+                Variables
+            </a>
             <a href={`/intro`}>Operators</a>
             <p className='section-title'>Collections</p>
             <a href={`/hello`}>Hello</a>
