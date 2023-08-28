@@ -14,8 +14,8 @@
     flex-direction: column;
     justify-content: top;
     align-items: center;
-    padding-left: 10vw;
-    padding-right: 10vw;
+    padding-left: 25vw;
+    padding-right: 25vw;
     overflow: scroll;
 }
 

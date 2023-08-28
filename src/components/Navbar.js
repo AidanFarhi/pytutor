@@ -7,7 +7,7 @@ export default function NavBar() {
             <a className={window.location.pathname === '/intro' ? 'active' : null} href={`/intro`}>
                 Intro
             </a>
-            <a href={`/data-types`}>
+            <a className={window.location.pathname === '/basic-data-types' ? 'active' : null} href={`/basic-data-types`}>
                 Basic data types
             </a>
             <a href={`/intro`}>Numbers</a>

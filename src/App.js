@@ -11,6 +11,7 @@ import ErrorPage from './components/ErrorPage';
 import Home from './components/Home';
 import Intro from './components/Intro';
 import Variables from './components/Variables';
+import BasicDataTypes from './components/BasicDataTypes';
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
   {
     path: "/intro",
     element: <Intro />
+  },
+  {
+    path: "/basic-data-types",
+    element: <BasicDataTypes />
   },
   {
     path: "/variables",
