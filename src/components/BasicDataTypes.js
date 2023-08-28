@@ -26,7 +26,10 @@ export default function BasicDataTypes() {
                 Method one: Integer literals.
             </p>
             <CodeMirror
-                value={code}
+                value={"# This is how you create an Integer literal.\n" +
+                "3\n" +
+                "# Yes. It's that simple. Try creating one on your own:\n"
+                }
                 theme={vscodeDark}
                 extensions={[python()]}
                 height="100px"
